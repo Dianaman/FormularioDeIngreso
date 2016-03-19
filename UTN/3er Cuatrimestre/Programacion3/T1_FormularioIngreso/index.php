@@ -4,7 +4,7 @@
         <title>Sign Up Form</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
     </head>
     <body>
 
