@@ -23,15 +23,22 @@
           <label for="password">Password:</label>
           <input type="password" id="password" name="user_password">
           
-          <label>Age:</label>
-          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 13</label><br>
-          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">13 or older</label>
+          <label>Birthday:</label>
+          <input type="date" id="birth" name="user_age"><br>
+
+          <label>Gender:</label>
+          <input type="radio" id="male" value="male" name="user_gender">Male<br>
+          <input type="radio" id="female" value="female" name="user_gender">female<br>
+          
         </fieldset>
         
         <fieldset>
           <legend><span class="number">2</span>Your profile</legend>
           <label for="bio">Biography:</label>
           <textarea id="bio" name="user_bio"></textarea>
+
+          <label>Favorite number:</label>
+          <input type="number" id="fav_num"name="user_num"  min="1" max="100"><br>
         </fieldset>
         <fieldset>
         <label for="job">Job Role:</label>
